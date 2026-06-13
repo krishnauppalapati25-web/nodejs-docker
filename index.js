@@ -6,7 +6,6 @@
 //6th change
 //7th change
 var http = require('http');
-
 //create a server object:
 http.createServer(function (req, res) {
   res.write('** Hey my app was deployed successfully :) **'); //write a response to the client
